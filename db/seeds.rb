@@ -6,4 +6,17 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #  Character.create(name: 'Luke', movie: movies.first)
 
-Article.create title:"Jerem Star", content:"Une star en or..."
+
+Article.create(title: "mon titre", content: "bla bla bla")
+Article.create(title: "mon autre titre", content: "blo blo bl")
+Article.create(title: "encore un titre", content: "couc")
+
+# require 'faker'
+
+# 10.times do
+#   article = Article.new(
+#     title: Faker::Buffy.character,
+#     text: Faker::Buffy.episode,
+#     )
+#   article.save!
+# end
